@@ -1,0 +1,9 @@
+name: py_postgres_blob_poc
+channels:
+  - defaults
+dependencies:
+  - pip
+  - pip:
+      - psycopg2-binary
+      - numpy
+      - scikit-learn
